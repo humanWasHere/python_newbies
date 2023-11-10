@@ -56,7 +56,7 @@ Le programme affichera :
 ```
 Vous avez 20 an(s) et mesurez 172 cm.
 ```
-Ma_fonction1 est ici égale à 20 car on retourne “age”.
+Ma_fonction1 est ici égale à 20 car on retourne age.
 
 #### Fonctions intégrées 
 
@@ -80,7 +80,7 @@ Ma_fonction1 est ici égale à 20 car on retourne “age”.
 
 ```bool```  -->  booléens correspondants à True ou False (majuscule importante ici) 
 
-Dict, list, tableau  -->  stockage de donnée {key, valeur} [1, 2]  
+Dict, list, tableau  -->  stockage de donnée {clé, valeur} [1, 2]  
 
 ### Les opérateurs
 
@@ -175,8 +175,9 @@ print(IMC)
 ```Ma_variable1 = “bonjour”```  
 
 ```
-def ma_fonction(paramètre_de_fonction, deuxième_paramètre_de_fonction): 
-    return résultat
+def ma_fonction(paramètre_de_fonction, deuxième_paramètre_de_fonction):
+	resultat = paramètre_de_fonctio + deuxième_paramètre_de_fonction
+	return resultat
 ```  
 
 ```
@@ -187,14 +188,15 @@ else:
 ```  
 
 ```
-while condition: 
+while condition à vérifier: 
     exécution
 Ici, à la fin de l’exé faire qqch
 ```
+Si la condition n'est pas vérifiée, on break, ce qui signifie sortir de la boucle while.
 
 ```
 for a in range(6, 8):
-    print(i)
+    print(a)
 ```   
 
 ```Print()```  -->  affiche (texte ou variable) 
@@ -210,6 +212,4 @@ Stockage : ```dict {key: value}``` / ```list []``` / tableau
 
 Comparatifs : ```==``` / ```!=``` / ```<``` / ```>``` / ```<=``` / ```>=```  
 
-Opérateur pour 1 ou 2 : ```and``` / ```or``` / ```not``` 
-
-	 
+Opérateur pour 1 ou 2 : ```and``` / ```or``` / ```not```
